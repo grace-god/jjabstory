@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jjabstory.board.BoardRepository">
+
+    <insert id="insBoard">
+        INSERT INTO
+            board("board_name","board_contents","writer","create_date","modify_date")
+        VALUE (#{boardName},#{boardContents},#{writer},#{createDate},#{modifyDate})
+    </insert>
+
+
+</mapper>
