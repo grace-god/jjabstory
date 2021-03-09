@@ -1,4 +1,4 @@
 package com.jjabstory.model;
 
-public class BoardDomain {
+public class BoardDomain extends BoardEntity{
 }
